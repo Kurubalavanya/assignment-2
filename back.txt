@@ -1,0 +1,23 @@
+package back;
+
+import java.applet.*;
+import java.awt.*;
+public class Back extends Applet
+{
+  String msg;
+  public void init()
+  {
+   setBackground(Color.red);
+   setForeground(Color.black);
+   msg="Background color is red";
+   }
+public void paint (Graphics g)
+{
+   g.drawString(msg,50,80);
+  
+}
+}
+/*<Applet code = "Back.class" width=300 Height=400>
+</Applet>
+*/
+
